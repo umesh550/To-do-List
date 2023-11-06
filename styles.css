@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #8294c4;
+  font-family: "Merriweather", serif;
+}
+
+.input-container {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  margin: 50px auto 50px;
+  padding: 30px 30px 30px;
+  border-radius: 10px;
+}
+
+.input-container h2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container h2 img {
+  width: 30px;
+  margin-left: 10px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  background: #edeef0;
+  border-radius: 10px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+input {
+  display: flex;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 13px;
+  font-weight: 15px;
+}
+
+#add {
+  border: none;
+  outline: none;
+  padding: 16px 40px;
+  background: #ff5945;
+  color: #fff;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 0;
+}
+
+#add:hover {
+  box-shadow: 3px 3px 5px #8294c4;
+}
+
+.task-container {
+  width: 100%;
+  max-width: 450px;
+  background: #fff;
+  margin: 50px auto 50px;
+  border-radius: 10px;
+}
+
+.task-container h2 {
+  padding: 20px;
+  background-color: #e3e7e9;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.tasks {
+  padding: 20px;
+}
+ul li {
+  list-style: none;
+}
+
+.delete-stuff {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #e3e7e9;
+  padding: 20px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.delete-stuff button {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.delete-stuff button:hover {
+  color: #ff5945;
+}
+
+.btn-delete {
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  float: right;
+  padding: 5px 8px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.btn-delete:hover {
+  background-color: #ff5945;
+  color: white;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e3e7e9;
+}
+
+.list-items button {
+  margin-left: auto;
+}
+
+.list-items li {
+  margin-left: 8px;
+}
