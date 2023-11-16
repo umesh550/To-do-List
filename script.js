@@ -3,7 +3,7 @@ const input = document.getElementById("input-box");
 const clearTasksBtn = document.getElementById("clear-task");
 
 const LOCAL_STORAGE_LIST_KEY = "task.list";
-let lists = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || [];
+let lists = JSON.parse(localStorage.getItem(LOCAL_STORAGE_LIST_KEY)) || [{name: "Pay Bills",checked: "false",id: 1},{name: "Read a book",checked: "false",id: 2}];
 
 document.getElementById("add").addEventListener("click", function () {
   if (input.value) {
